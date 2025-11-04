@@ -7,6 +7,11 @@ copyright = "Pika Software (CC BY 4.0)"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
+# https://gohugo.io/host-and-deploy/host-on-github-pages/#step-2
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 
 # Setup syntax highlighting without inline styles. For more information about
 # why you'd want to avoid inline styles, see
