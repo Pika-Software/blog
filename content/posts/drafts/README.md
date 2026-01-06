@@ -29,3 +29,6 @@ After you are ready to publish your masterpiece, move your post to `content/post
 You can also update `date` property to `date = 'year-month-day'`
 
 And don't forget to remove `draft = true` from the post!
+
+## How to render drafts?
+Run `hugo server -D` in terminal. It runs a development server with `--buildDrafts` argument
